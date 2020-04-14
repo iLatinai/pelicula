@@ -7,32 +7,32 @@
 		</a>
 	</div>
 	<div style="float: right;margin: 18px 18px; height: 50px;" class="hidden-xs">
-		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger">INICIAR SESION</a>
+		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger">INICIAR SESIÓN</a>
 	</div>
 	
 	<!-- promo text visible for large devices -->
 	<div style="font-size: 85px;font-weight: bold;clear: both;padding: 200px 0px 0px 50px;color: #fff;" class="hidden-xs">
-		Ver que sigue.
+		¿Que quieres ver?
 		<div style="font-size: 30px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			VER EN CUALQUIER LUGAR. CANCELAR EN CUALQUIER MOMENTO.
+			MIRA DONDE QUIERAS, PAGA CUANDO QUIERAS.
 		</div>
-		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
+		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >OBTENER MEMBRESÍA</a>
 	</div>
 	
 	<!-- promo text visible for small devices -->
 	<div style="font-size: 45px;font-weight: bold;clear: both;padding: 80px 0px 0px 10px;color: #fff;" class="hidden-lg hidden-sm hidden-md">
 		See what's next.
 		<div style="font-size: 25px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			VER EN CUALQUIER LUGAR. <br> . CANCELAR EN CUALQUIER MOMENTO.
+			MIRA DONDE QUIERAS<br> , PAGA CUANDO QUIERAS.
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
 		<br>
-		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger btn-lg" >INICIAR SESION</a>
+		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger btn-lg" >INICIAR SESIÓN</a>
 	</div>
 </div>
 <!-- MIDDLE TAB SECTION -->
 <div class="container">
-	<div class="row">9
+	<div class="row">
 		<div class="col-lg-12">
 			<div class="bs-component">
 				<ul class="nav nav-tabs">
@@ -40,21 +40,21 @@
 						<a href="#cancel" data-toggle="tab">
 						<i class="fa fa-sign-out" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Cancel subscription anytime
+							Cancela tu suscripción cuando desees
 						</a>
 					</li>
 					<li>
 						<a href="#anywhere" data-toggle="tab">
 						<i class="fa fa-laptop" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Watch from anywhere
+						Mira en cualquier lugar
 						</a>
 					</li>
 					<li>
 						<a href="#price" data-toggle="tab">
 						<i class="fa fa-tags fa-flip-horizontal" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Pricing packages
+						Planes para ti
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 						<div class="row">
 							<div class="col-md-7" style="padding-top: 50px;">
 								<h4>
-									If you decide Videoflix isn't for you - no problem. <br>No commitment. Cancel online anytime.
+									SI DECIDES QUE VIDEOFLIX NO ES PARA TI, NO HAY PROBLEMA. CANCELA ONLINE EN CUALQUIER MOMENTO.
 								</h4>
 								<br>
 								<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
@@ -80,7 +80,7 @@
 						<div class="row">
 							<div class="col-md-9">
 								<h4>
-									Watch TV shows and movies anytime, anywhere. From any device.
+									Disfruta series y películas en cualquier lugar, desde cualquier dispositivo.
 								</h4>
 							</div>
 							<div class="col-md-3">
@@ -90,15 +90,15 @@
 						<div class="row" style="margin-top:50px;text-align: center;">
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_TV_UI.png" style="width: 100%;" />
-								<h5>Watch on your tv</h5>
+								<h5>Disfruta en tu TV</h5>
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_mobile_tablet_UI_2.png" style="width: 100%;" />
-								<h5>Watch on your phone, tablet</h5>
+								<h5>Disfruta en tu Smartphone o Tablet</h5>
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_website_UI.png" style="width: 100%;" />
-								<h5>Watch on your pc</h5>
+								<h5>Disfruta en tu PC</h5>
 							</div>
 						</div>
 						</p>
@@ -108,7 +108,7 @@
 						<div class="row" style="margin: 35px;">
 							<div class="col-md-8" style="text-align: right;">
 								<h4>
-									Choose one plan and watch everything.
+									Elige un plan.
 								</h4>
 							</div>
 							<div class="col-md-4" style="text-align: left;">
