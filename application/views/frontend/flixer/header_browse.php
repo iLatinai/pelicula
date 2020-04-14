@@ -65,7 +65,7 @@
 				</li>
 				<!-- MY LIST -->
 				<li>
-					<a href="<?php echo base_url();?>index.php?browse/mylist">My List</a>
+					<a href="<?php echo base_url();?>index.php?browse/mylist">Mi lista</a>
 				</li>
 			</ul>
 			<!-- PROFILE, ACCOUNT SECTION -->
@@ -153,16 +153,16 @@
 						<?php endif;?>
 						<?php endif;?>
 						<li class="divider"></li>
-						<li><a href="<?php echo base_url();?>index.php?browse/manageprofile">Manage Profiles</a></li>
+						<li><a href="<?php echo base_url();?>index.php?browse/manageprofile">Administrar perfil</a></li>
 						<li class="divider"></li>
 						<!-- SHOW ADMIN LINK IF ADMIN LOGGED IN -->
 						<?php 
 							if($this->session->userdata('login_type') == 1):
 								?>
-						<li><a href="<?php echo base_url();?>index.php?admin/dashboard">Admin</a></li>
+						<li><a href="<?php echo base_url();?>index.php?admin/dashboard">Administrador</a></li>
 						<?php endif;?>
-						<li><a href="<?php echo base_url();?>index.php?browse/youraccount">Account</a></li>
-						<li><a href="<?php echo base_url();?>index.php?home/signout">Sign out</a></li>
+						<li><a href="<?php echo base_url();?>index.php?browse/youraccount">Cuenta</a></li>
+						<li><a href="<?php echo base_url();?>index.php?home/signout">Cerrar sesión</a></li>
 					</ul>
 				</li>
 			</ul>
