@@ -32,7 +32,7 @@
 				<!-- MOVIES GENRE WISE-->
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="" style="color: #e50914; font-weight: bold;">
-						Pelicula <span class="caret"></span>
+						Películas <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
 						<?php
@@ -169,7 +169,7 @@
 			<!-- SEARCH FORM -->
 			<form class="navbar-form navbar-right" method="post" action="<?php echo base_url();?>index.php?browse/search">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Titles, peoples, genres" 
+					<input type="text" class="form-control" placeholder="Titulos, personas, géneros" 
 						style="background-color: #000; border: 1px solid #808080;" name="search_key">
 				</div>
 				<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
