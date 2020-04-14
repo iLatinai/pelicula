@@ -12,11 +12,13 @@
 	
 	<!-- promo text visible for large devices -->
 	<div style="font-size: 85px;font-weight: bold;clear: both;padding: 200px 0px 0px 50px;color: #fff;" class="hidden-xs">
+
 		¿Qué quieres ver?
 		<div style="font-size: 30px; letter-spacing: .2px; color: #fff; font-weight: 400;">
 			MIRA DONDE QUIERAS, CANCELA CUANDO QUIERAS.
+
 		</div>
-		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
+		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >OBTENER MEMBRESÍA</a>
 	</div>
 	
 	<!-- promo text visible for small devices -->
@@ -24,6 +26,7 @@
 		See what's next.
 		<div style="font-size: 25px; letter-spacing: .2px; color: #fff; font-weight: 400;">
 			MIRA DONDE QUIERAS. <br> . CANCELA CUANDO QUIERAS.
+
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
 		<br>
@@ -40,7 +43,7 @@
 						<a href="#cancel" data-toggle="tab">
 						<i class="fa fa-sign-out" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Cancela tu plan cuando quieras
+							Cancela tu suscripción cuando desees
 						</a>
 					</li>
 					<li>
@@ -64,7 +67,8 @@
 						<div class="row">
 							<div class="col-md-7" style="padding-top: 50px;">
 								<h4>
-									SI DECIDES QUE VIDEOFLIX NO ES PARA TI, NO HAY PROBLEMA CANCELA SIN COMPROMISO EN CUALQUIER MOMENTO.
+
+									SI DECIDES QUE VIDEOFLIX NO ES PARA TI, NO HAY PROBLEMA. CANCELA ONLINE EN CUALQUIER MOMENTO.
 								</h4>
 								<br>
 								<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
@@ -94,11 +98,11 @@
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_mobile_tablet_UI_2.png" style="width: 100%;" />
-								<h5>Disfruta en tu Teléfono o Tablet</h5>
+								<h5>Disfruta en tu Smartphone o Tablet</h5>
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_website_UI.png" style="width: 100%;" />
-								<h5>Desfruta en tu PC</h5>
+								<h5>Disfruta en tu PC</h5>
 							</div>
 						</div>
 						</p>

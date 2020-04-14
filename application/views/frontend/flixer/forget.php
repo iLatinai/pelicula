@@ -8,7 +8,7 @@
 		</a>
 	</div>
     <div style="float: right;margin: 18px 40px; height: 50px;">
-        <a href="<?php echo base_url();?>index.php?home/signin" class="" style="color: #e50914;font-weight: 700;font-size: 20px;">Sign in</a>
+        <a href="<?php echo base_url();?>index.php?home/signin" class="" style="color: #e50914;font-weight: 700;font-size: 20px;">Iniciar sesión</a>
     </div>
 	<form action="<?php echo base_url();?>index.php?home/forget" method="post">
 		<div class="row">
@@ -20,7 +20,7 @@
 						<!-- ERROR MESSAGE -->
 						<div class="alert alert-dismissible alert-danger">
 						  <button type="button" class="close" data-dismiss="alert">&times;</button>
-						  Email not found.
+						  El correo electrónico no ha sido encontrado.
 						</div>
 					<?php endif;?>
 					
@@ -30,20 +30,20 @@
 						<!-- SUCCESS MESSAGE -->
 						<div class="alert alert-dismissible alert-success">
 						  <button type="button" class="close" data-dismiss="alert">&times;</button>
-						  Password sent to your email.
-						  <a href="<?php echo base_url();?>index.php?home/signin">Sign in</a>
+						  Contraseña enviada a su correo electrónico.
+						  <a href="<?php echo base_url();?>index.php?home/signin">Iniciar sesión</a>
 						</div>
 					<?php endif;?>
 
-					<h3 class="black_text">Forgot Email/Password</h3>
-					Enter your email address. We will send you a temporary password.
+					<h3 class="black_text">Olvidé mi correo electrónico / contraseña</h3>
+					Ingrese su dirección de correo electrónico. Le enviaremos una contraseña temporal.
 					<div class="black_text" style="margin-top: 20px;">
 					Email 
 					</div>
 					<div class="black_text">
 						<input type="email" name="email" style="padding: 10px; width:100%;" />
 					</div>
-					<button type="submit" class="btn btn-primary" style=" width: 100%; margin: 20px 0px;">Email me</button>
+					<button type="submit" class="btn btn-primary" style=" width: 100%; margin: 20px 0px;">Envíeme un correo electrónico</button>
 				</div>
 			</div>
 		</div>

@@ -32,7 +32,7 @@
 				<!-- MOVIES GENRE WISE-->
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="" style="color: #e50914; font-weight: bold;">
-						Movie <span class="caret"></span>
+						Películas <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
 						<?php
@@ -49,7 +49,7 @@
 				<!-- TV SERIES GENRE WISE-->
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="" style="color: #e50914; font-weight: bold;">
-						Tv Serial <span class="caret"></span>
+						Tv Series <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
 						<?php
@@ -65,7 +65,7 @@
 				</li>
 				<!-- MY LIST -->
 				<li>
-					<a href="<?php echo base_url();?>index.php?browse/mylist">Mi Lista</a>
+					<a href="<?php echo base_url();?>index.php?browse/mylist">Mi lista</a>
 				</li>
 			</ul>
 			<!-- PROFILE, ACCOUNT SECTION -->
@@ -154,6 +154,7 @@
 						<?php endif;?>
 						<li class="divider"></li>
 						<li><a href="<?php echo base_url();?>index.php?browse/manageprofile">Configurar Perfiles</a></li>
+
 						<li class="divider"></li>
 						<!-- SHOW ADMIN LINK IF ADMIN LOGGED IN -->
 						<?php 
@@ -163,13 +164,14 @@
 						<?php endif;?>
 						<li><a href="<?php echo base_url();?>index.php?browse/youraccount">Mi cuenta</a></li>
 						<li><a href="<?php echo base_url();?>index.php?home/signout">Cerrar Sesión</a></li>
+
 					</ul>
 				</li>
 			</ul>
 			<!-- SEARCH FORM -->
 			<form class="navbar-form navbar-right" method="post" action="<?php echo base_url();?>index.php?browse/search">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Titles, peoples, genres" 
+					<input type="text" class="form-control" placeholder="Titulos, personas, géneros" 
 						style="background-color: #000; border: 1px solid #808080;" name="search_key">
 				</div>
 				<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
