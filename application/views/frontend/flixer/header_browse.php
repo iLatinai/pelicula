@@ -32,7 +32,7 @@
 				<!-- MOVIES GENRE WISE-->
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="" style="color: #e50914; font-weight: bold;">
-						Movie <span class="caret"></span>
+						Pelicula <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
 						<?php
@@ -49,7 +49,7 @@
 				<!-- TV SERIES GENRE WISE-->
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="" style="color: #e50914; font-weight: bold;">
-						Tv Serial <span class="caret"></span>
+						Tv Series <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
 						<?php
