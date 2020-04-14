@@ -4,14 +4,14 @@
 		<div class="tiles blue weather-widget ">
 			<div class="tiles-body">
 				<div class="heading">
-					<div class="pull-left"> Total Movies </div>
+					<div class="pull-left"> Total Peliculas </div>
 					<div class="pull-right">
 						<?php echo $this->db->from('movie')->count_all_results();?>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="big-icon">
-					<i class="material-icons" style="font-size: 90px;">video_library</i>
+					<i class="material-icons" style="font-size: 90px;">libreria de videos</i>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -51,7 +51,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="big-icon">
-					<i class="material-icons" style="font-size: 90px;">subscriptions</i>
+					<i class="material-icons" style="font-size: 90px;">subscripciones</i>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -67,14 +67,14 @@
 		<div class="tiles black  weather-widget ">
 			<div class="tiles-body">
 				<div class="heading">
-					<div class="pull-left"> Total Registered User </div>
+					<div class="pull-left"> Usuarios registrados </div>
 					<div class="pull-right">
 						<?php echo $this->db->from('user')->count_all_results();?>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="big-icon">
-					<i class="material-icons" style="font-size: 90px;">people</i>
+					<i class="material-icons" style="font-size: 90px;">gente</i>
 				</div>
 				<div class="clearfix"></div>
 			</div>

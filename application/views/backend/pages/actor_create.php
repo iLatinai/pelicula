@@ -8,14 +8,14 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="form-group">
-								<label class="form-label">Actor Name</label>
+								<label class="form-label">Nombre de Actor</label>
 								<span class="help">e.g. "Leonardo di Caprio"</span>
 								<div class="controls">
 									<input type="text" class="form-control" name="name">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Image</label>
+								<label class="form-label">Imagen</label>
 								<span class="help"></span>
 								<div class="controls">
 									<input type="file" class="form-control" name="thumb">
