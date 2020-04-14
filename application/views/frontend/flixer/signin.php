@@ -15,7 +15,7 @@
 				<!-- ERROR MESSAGE -->
 				<div class="alert alert-dismissible alert-danger">
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
-					Login failed! Please try again.
+					¡Error de inicio de sesion! Inténtalo de nuevo.
 				</div>
 				<?php endif;?>
 				<form method="post" action="<?php echo base_url();?>index.php?home/signin">
@@ -27,17 +27,17 @@
 						<input type="email" name="email" style="padding: 10px; width:100%;" />
 					</div>
 					<div class="black_text" style="margin-top: 20px;">
-						CONTRA
+						CONTRASEÑA
 					</div>
 					<div class="black_text">
 						<input type="password" name="password" style="padding: 10px; width:100%;" />
 					</div>
-					<button class="btn btn-danger" style=" width: 100%; margin: 20px 0px;"> Sign in </button>
+					<button class="btn btn-danger" style=" width: 100%; margin: 20px 0px;"> Iniciar sesion </button>
 				</form>
 				<hr>
 				<a href="<?php echo base_url();?>index.php?home/forget">Forget password?</a>
 				|
-				<a href="<?php echo base_url();?>index.php?home/signup">Sign up</a>
+				<a href="<?php echo base_url();?>index.php?home/signup">Iniciar sesion</a>
 			</div>
 		</div>
 	</div>
