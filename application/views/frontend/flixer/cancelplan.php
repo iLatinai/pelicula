@@ -2,23 +2,23 @@
 <div class="container" style="margin-top: 90px;">
 	<div class="row">
 		<div class="col-lg-12">
-			<h3 class="black_text">Cancel Your Membership?</h3>
+			<h3 class="black_text">¿Cancelar suscripción?</h3>
 			<hr>
 		</div>
 		<div class="col-lg-8">
-			<h4 class="black_text">Click "Finish Cancellation" below to cancel your membership.</h4>
+			<h4 class="black_text">Haga clic en "CONFIRMO" para cancelar su membresía.</h4>
 			<ul class="black_text">
 				<li>
-					Cancellation will be effective immedietly after your confirmation.
+					La cancelación será efectiva después de su confimación.
 				</li>
 				<li>
-					Restart your membership anytime. Your viewing preferences will be saved always.
+					Regrese a su suscripción cuando desee. Sus preferencias se mantendrán aquí.
 				</li>
 			</ul>
 			<form method="post" action="<?php echo base_url();?>index.php?browse/cancelplan">
 				<input type="hidden" name="task" value="cancel_plan" />
-				<button class="btn btn-primary" type="submit"> Finish Cancellation </button>
-				<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Go Back</a>
+				<button class="btn btn-primary" type="submit"> CONFIRMO </button>
+				<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Volver</a>
 			</form>
 		</div>
 	</div>

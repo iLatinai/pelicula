@@ -16,7 +16,7 @@
 		</a>
 	</div>
 	<div style="clear: both; text-align: center; padding-top: 100px;">
-		<h1>Who's watching?</h1>
+		<h1>¿Quién está mirando?</h1>
 		<table align="center" style="background-color: #141414;">
 			<tr>
 				<td>
@@ -62,6 +62,6 @@
 			</tr>
 		</table>
 		<br>
-		<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="profile_manage">MANAGE PROFILES</a>
+		<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="profile_manage">CONFIGURAR PERFILES</a>
 	</div>
 </div>
