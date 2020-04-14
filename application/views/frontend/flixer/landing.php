@@ -7,14 +7,14 @@
 		</a>
 	</div>
 	<div style="float: right;margin: 18px 18px; height: 50px;" class="hidden-xs">
-		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger">INICIAR SESION</a>
+		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger">INICIAR SESIÓN</a>
 	</div>
 	
 	<!-- promo text visible for large devices -->
 	<div style="font-size: 85px;font-weight: bold;clear: both;padding: 200px 0px 0px 50px;color: #fff;" class="hidden-xs">
-		Ver que sigue.
+		¿Qué quieres ver?
 		<div style="font-size: 30px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			VER EN CUALQUIER LUGAR. CANCELAR EN CUALQUIER MOMENTO.
+			MIRA DONDE QUIERAS, CANCELA CUANDO QUIERAS.
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
 	</div>
@@ -23,16 +23,16 @@
 	<div style="font-size: 45px;font-weight: bold;clear: both;padding: 80px 0px 0px 10px;color: #fff;" class="hidden-lg hidden-sm hidden-md">
 		See what's next.
 		<div style="font-size: 25px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			VER EN CUALQUIER LUGAR. <br> . CANCELAR EN CUALQUIER MOMENTO.
+			MIRA DONDE QUIERAS. <br> . CANCELA CUANDO QUIERAS.
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
 		<br>
-		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger btn-lg" >INICIAR SESION</a>
+		<a href="<?php echo base_url();?>index.php?home/signin" class="btn btn-danger btn-lg" >INICIAR SESIÓN</a>
 	</div>
 </div>
 <!-- MIDDLE TAB SECTION -->
 <div class="container">
-	<div class="row">9
+	<div class="row">
 		<div class="col-lg-12">
 			<div class="bs-component">
 				<ul class="nav nav-tabs">
@@ -40,21 +40,21 @@
 						<a href="#cancel" data-toggle="tab">
 						<i class="fa fa-sign-out" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Cancel subscription anytime
+						Cancela tu plan cuando quieras
 						</a>
 					</li>
 					<li>
 						<a href="#anywhere" data-toggle="tab">
 						<i class="fa fa-laptop" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Watch from anywhere
+						Mira desde cualquier lugar
 						</a>
 					</li>
 					<li>
 						<a href="#price" data-toggle="tab">
 						<i class="fa fa-tags fa-flip-horizontal" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Pricing packages
+						Planes para ti
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 						<div class="row">
 							<div class="col-md-7" style="padding-top: 50px;">
 								<h4>
-									If you decide Videoflix isn't for you - no problem. <br>No commitment. Cancel online anytime.
+									SI DECIDES QUE VIDEOFLIX NO ES PARA TI, NO HAY PROBLEMA CANCELA SIN COMPROMISO EN CUALQUIER MOMENTO.
 								</h4>
 								<br>
 								<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
@@ -80,7 +80,7 @@
 						<div class="row">
 							<div class="col-md-9">
 								<h4>
-									Watch TV shows and movies anytime, anywhere. From any device.
+									Disfruta de Películas, Series y Programas donde quieras, en cualquier dispositivo.
 								</h4>
 							</div>
 							<div class="col-md-3">
@@ -90,15 +90,15 @@
 						<div class="row" style="margin-top:50px;text-align: center;">
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_TV_UI.png" style="width: 100%;" />
-								<h5>Watch on your tv</h5>
+								<h5>Disfruta en tu TV</h5>
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_mobile_tablet_UI_2.png" style="width: 100%;" />
-								<h5>Watch on your phone, tablet</h5>
+								<h5>Disfruta en tu Teléfono o Tablet</h5>
 							</div>
 							<div class="col-md-4">
 								<img src="<?php echo base_url();?>assets/frontend/flixer/images/asset_website_UI.png" style="width: 100%;" />
-								<h5>Watch on your pc</h5>
+								<h5>Desfruta en tu PC</h5>
 							</div>
 						</div>
 						</p>
@@ -108,7 +108,7 @@
 						<div class="row" style="margin: 35px;">
 							<div class="col-md-8" style="text-align: right;">
 								<h4>
-									Choose one plan and watch everything.
+									Elige un plan y disfruta.
 								</h4>
 							</div>
 							<div class="col-md-4" style="text-align: left;">
@@ -130,16 +130,16 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Monthly price</td>
+									<td>Cuota mensual</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
 										?>
-									<td align="center">USD <?php echo $row['price'];?></td>
+									<td align="center">$<?php echo $row['price'];?> CLP</td>
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Screens you can watch on at the same time</td>
+									<td>Pantallas que puedes reproducir a la vez</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -148,7 +148,7 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Watch on your laptop, TV, phone and tablet</td>
+									<td>Mirar en Laptop, TV, Smartphone y Tablet</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -157,7 +157,7 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>HD available</td>
+									<td>HD disponible</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -166,7 +166,7 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Unlimited movies and TV shows</td>
+									<td>Películas y Series ilimitadas</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -175,7 +175,7 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Cancel anytime</td>
+									<td>Cancelar plan en cualquier momento</td>
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):

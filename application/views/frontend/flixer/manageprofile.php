@@ -17,7 +17,7 @@
 		</a>
 	</div>
 	<div style="clear: both; text-align: center; padding-top: 100px;">
-		<h1>Manage Profiles</h1>
+		<h1>Configurar Perfiles</h1>
 		<table align="center" style="background-color: #141414;">
 			<tr>
 				<td>
@@ -83,6 +83,6 @@
 			</tr>
 		</table>
 		<br>
-		<a href="<?php echo base_url();?>index.php?browse/switchprofile" class="profile_manage_done">DONE</a>
+		<a href="<?php echo base_url();?>index.php?browse/switchprofile" class="profile_manage_done">HECHO</a>
 	</div>
 </div>

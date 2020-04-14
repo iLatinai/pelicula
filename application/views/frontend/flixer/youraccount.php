@@ -7,7 +7,7 @@
 			?>
 		<div class="alert alert-dismissible alert-danger">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Payment cancelled.
+			Se ha cancelado el pago.
 		</div>
 		<?php endif;?>
 		<?php
@@ -15,7 +15,7 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Payment completed successfully.
+			Pago realizado con éxito!
 		</div>
 		<?php endif;?>
 		<?php
@@ -23,7 +23,7 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Email changed successfully.
+			Correo electrónico actualizado con éxito.
 		</div>
 		<?php endif;?>
 		<?php
@@ -31,7 +31,7 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Password changed successfully.
+			Contraseña actualizada con éxito.
 		</div>
 		<?php endif;?>
 		<?php
@@ -40,30 +40,30 @@
 		<!-- ERROR MESSAGE --> 
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Membership cancelled successfully. You can purchase or renew it anytime.
+			Membresía cancelada exitosamente. Puede pagarla o renovarla en cualquier momento.
 		</div>
 		<?php endif;?>
 		<!-- NOTIFICATION MESSAGES ENDS -->
 		<div class="col-lg-12">
-			<h3 class="black_text">Account</h3>
+			<h3 class="black_text">Cuenta</h3>
 			<hr>
 		</div>
 		<div class="col-lg-12">
 			<div class="row">
 				<div class="col-lg-5">
-					<span style="font-size: 20px;">MEMBERSHIP & BILLING</span>
+					<span style="font-size: 20px;">MEMBRESÍA Y FACTURACIÓN</span>
 					<br>
 					<?php
 						if ( $this->crud_model->validate_subscription() == false):
 						?>
 					<a href="<?php echo base_url();?>index.php?browse/purchaseplan" 
-						class="btn btn-primary" style="margin:10px 0px;"> Purchase Membership </a>
+						class="btn btn-primary" style="margin:10px 0px;"> Comprar membresía </a>
 					<?php endif;?>
 					<?php
 						if ( $this->crud_model->validate_subscription() != false):
 						?>
 					<a href="<?php echo base_url();?>index.php?browse/cancelplan" 
-						class="btn btn-default" style="margin:10px 0px;"> Cancel Membership </a>
+						class="btn btn-default" style="margin:10px 0px;"> Cancelar membresía </a>
 					<?php endif;?>
 				</div>
 				<div class="col-lg-7">
@@ -72,13 +72,13 @@
 							<b><?php echo $this->crud_model->get_current_user_detail()->email;?></b>
 						</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/emailchange" class="blue_text">Change Email</a>
+							<a href="<?php echo base_url();?>index.php?browse/emailchange" class="blue_text">Cambiar Correo Electrónico</a>
 						</div>
 					</div>
 					<div class="row" style="margin: 5px;">
-						<div class="pull-left">Password : ******</div>
+						<div class="pull-left">Contraseña: ******</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/passwordchange" class="blue_text">Change Password</a>
+							<a href="<?php echo base_url();?>index.php?browse/passwordchange" class="blue_text">Cambiar Contraseña</a>
 						</div>
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 			<hr>
 			<div class="row">
 				<div class="col-lg-5">
-					<span style="font-size: 20px;">PLAN DETAILS</span>
+					<span style="font-size: 20px;">DETALLES DE SU PLAN</span>
 					<br>
 				</div>
 				<div class="col-lg-7">
@@ -105,30 +105,30 @@
 							<?php echo $current_plan_name . " (" . $current_plan_screens . " screens)"; ?>
 							</b>
 							<br>
-							Effective upto : <b><?php echo date('d M, Y', $current_subscription_upto_timestamp);?></b>
+							Vigente hasta: <b><?php echo date('d M, Y', $current_subscription_upto_timestamp);?></b>
 							<br>
-							<i style="font-size: 12px;">for changing plan, cancel the currently running plan first</i>
+							<i style="font-size: 12px;">Para cambiar su plan, cancele su plan actual primero.</i>
 							<?php endif;?>
 							<!-- IF ANY ACTIVE SUBSCRIPTION IS NOT FOUND -->
 							<?php
 								if ( $this->crud_model->validate_subscription() == false):
 								?>
-							<i style="font-size: 12px;">Membership inactive</i>
+							<i style="font-size: 12px;">Membresía inactiva</i>
 							<?php endif;?>
 						</div>
 						<div class="pull-right" style="text-align: right;">
 							<?php
 								if ( $this->crud_model->validate_subscription() == false):
 								?>
-							<a href="<?php echo base_url();?>index.php?browse/purchaseplan" class="blue_text">Purchase</a>
+							<a href="<?php echo base_url();?>index.php?browse/purchaseplan" class="blue_text">Comprar</a>
 							<?php endif;?>
 							<?php
 								if ( $this->crud_model->validate_subscription() != false):
 								?>
-							<a href="<?php echo base_url();?>index.php?browse/cancelplan" class="blue_text">Cancel</a>
+							<a href="<?php echo base_url();?>index.php?browse/cancelplan" class="blue_text">Cancelar</a>
 							<?php endif;?>
 							<br>
-							<a href="<?php echo base_url();?>index.php?browse/billinghistory" class="blue_text">Billing history</a>
+							<a href="<?php echo base_url();?>index.php?browse/billinghistory" class="blue_text">Historial de Facturas</a>
 						</div>
 					</div>
 				</div>
@@ -136,7 +136,7 @@
 			<hr>
 			<div class="row">
 				<div class="col-lg-5">
-					<span style="font-size: 20px;">MY PROFILE</span>
+					<span style="font-size: 20px;">MI PERFIL</span>
 					<br>
 				</div>
 				<div class="col-lg-7">
@@ -148,7 +148,7 @@
 							<!--<a href="" class="blue_text">Language</a>-->
 						</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="blue_text">Manage profiles</a>
+							<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="blue_text">Configurar perfiles</a>
 						</div>
 					</div>
 				</div>
