@@ -3,7 +3,7 @@
 	<div class="col-md-6 col-sm-12 col-xs-12">
 		<div class="grid simple ">
 			<div class="grid-title ">
-				<h4>Update profile</h4>
+				<h4>Actualizar cuenta</h4>
 			</div>
 			<div class="grid-body ">
 				<?php
@@ -13,14 +13,14 @@
 				<form method="post" action="<?php echo base_url();?>index.php?admin/account" enctype="multipart/form-data">
 					<input type="hidden" name="task" value="update_profile" />
 					<div class="form-group">
-						<label class="form-label">Your name</label>
+						<label class="form-label">Nombre</label>
 						<span class="help"></span>
 						<div class="controls">
 							<input type="text" class="form-control" name="name" value="<?php echo $user_detail->name;?>">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="form-label">Your email</label>
+						<label class="form-label">Email</label>
 						<span class="help"></span>
 						<div class="controls">
 							<input type="text" class="form-control" name="email" value="<?php echo $user_detail->email;?>">
@@ -37,7 +37,7 @@
 	<div class="col-md-6 col-sm-12 col-xs-12">
 		<div class="grid simple ">
 			<div class="grid-title ">
-				<h4>Change password</h4>
+				<h4>Cambiar contraseña</h4>
 			</div>
 			<div class="grid-body ">
 				<?php
@@ -47,7 +47,7 @@
 				<form method="post" action="<?php echo base_url();?>index.php?admin/account" enctype="multipart/form-data">
 					<input type="hidden" name="task" value="update_password" />
 					<div class="form-group">
-						<label class="form-label">New password</label>
+						<label class="form-label">Nueva contraseña</label>
 						<span class="help"></span>
 						<div class="controls">
 							<input type="password" class="form-control" name="new_password" value="">

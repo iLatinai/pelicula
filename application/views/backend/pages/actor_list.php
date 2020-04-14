@@ -1,12 +1,12 @@
 <a href="<?php echo base_url();?>index.php?admin/actor_create/" class="btn btn-primary" style="margin-bottom: 20px;">
 <i class="fa fa-plus"></i>
-Create actor
+Crear actor
 </a>
 <div class="row-fluid">
 	<div class="span12">
 		<div class="grid simple ">
 			<div class="grid-title">
-				<h4>Actor List</h4>
+				<h4>Lista de Actores</h4>
 			</div>
 			<div class="grid-body ">
 				<table class="table table-hover table-condensed" id="example">
@@ -16,8 +16,8 @@ Create actor
 								#
 							</th>
 							<th></th>
-							<th>Actor Name</th>
-							<th>Operation</th>
+							<th>Nombre de Actor</th>
+							<th>Operacion</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -32,9 +32,9 @@ Create actor
 							<td style="vertical-align: middle;"><?php echo $row['name'];?></td>
 							<td style="vertical-align: middle;">
 								<a href="<?php echo base_url();?>index.php?admin/actor_edit/<?php echo $row['actor_id'];?>" class="btn btn-info btn-xs btn-mini">
-								edit</a>
+								editar</a>
 								<a href="<?php echo base_url();?>index.php?admin/actor_delete/<?php echo $row['actor_id'];?>" class="btn btn-danger btn-xs btn-mini" onclick="return confirm('Want to delete?')">
-								delete</a>
+								eliminar</a>
 							</td>
 						</tr>
 						<?php endforeach;?>
