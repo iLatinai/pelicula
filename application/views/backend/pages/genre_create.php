@@ -15,7 +15,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<input type="submit" class="btn btn-success" value="Create">
+								<input type="submit" class="btn btn-success" value="Crear">
 								<a href="<?php echo base_url();?>index.php?admin/genre_list" class="btn btn-default">Regresar</a>
 							</div>
 						</div>
