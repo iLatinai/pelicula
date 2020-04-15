@@ -15,6 +15,6 @@
 			<?php echo $title;?>
 			</span>
 		</p>
-		<a href="<?php echo $link;?>">View more</a>
+		<a href="<?php echo $link;?>">Ver más</a>
 	</figcaption>
 </figure>
