@@ -7,7 +7,7 @@
 		</a>
 	</div>
 	<div style="float: right;margin: 18px 40px; height: 50px;">
-		<a href="<?php echo base_url();?>index.php?home/signin" class="" style="color: #e50914;font-weight: 700;font-size: 20px;">Sign In</a>
+		<a href="<?php echo base_url();?>index.php?home/signin" class="" style="color: #e50914;font-weight: 700;font-size: 20px;">Registrarse</a>
 	</div>
 </div>
 <!-- ERROR MESSAGE -->
@@ -22,30 +22,30 @@
 			?>
 		<div class="alert alert-dismissible alert-danger" style="margin: 30px;">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Email already exists! Please try again.
+				¡El Email ya existe! Inténtalo de nuevo.
 		</div>
 		<?php endif;?>
 		<div class="col-lg-12" style="margin: 0px 20px;">
-			<h3 class="black_text">Sign up to start your membership</h3>
+			<h3 class="black_text">Regístrese para comenzar su membresía</h3>
 		</div>
 		<div class="col-lg-12" style="margin: 0px 20px;">
-			<h4 class="black_text">Create your account:</h4>
+			<h4 class="black_text">Crea tu cuenta:</h4>
 		</div>
 		<div class="col-lg-12" style="margin: 0px 20px;">
 			<form method="post" action="<?php echo base_url();?>index.php?home/signup">
 				<div style="margin:10px 0px 5px;">
-					Email Address
+					Dirección de correo electrónico
 				</div>
 				<div class="black_text">
 					<input type="email" name="email" style="padding: 10px; width:400px;" autocomplete="off" />
 				</div>
 				<div style="margin:10px 0px 5px;">
-					Password
+					Contraseña
 				</div>
 				<div class="black_text">
 					<input type="password" name="password" style="padding: 10px; width:400px;" />
 				</div>
-				<button type="submit"  class="btn btn-primary" style=" width: 150px; margin: 20px 0px;">Register</button>
+				<button type="submit"  class="btn btn-primary" style=" width: 150px; margin: 20px 0px;">Registrarse</button>
 			</form>
 		</div>
 	</div>

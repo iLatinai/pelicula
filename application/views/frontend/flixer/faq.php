@@ -11,7 +11,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<h4 class="black_text">Frequently asked question</h4>
+			<h4 class="black_text">Preguntas frecuentes</h4>
 		</div>
 		<?php 
 		$faqs	=	$this->db->get('faq')->result_array();

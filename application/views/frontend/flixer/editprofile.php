@@ -60,8 +60,8 @@
 					</div>
 					<hr style="border-top:1px solid #333;">
 					<br>
-					<a href="#" class="btn_block" onClick="submit_form()">SAVE</a>
-					<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="btn_blank">CANCEL</a>
+					<a href="#" class="btn_block" onClick="submit_form()">Guardar</a>
+					<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="btn_blank">Cancelar</a>
 				</div>
 			</form>
 		</div>

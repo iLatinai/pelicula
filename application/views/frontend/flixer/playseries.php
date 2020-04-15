@@ -128,13 +128,13 @@ Tu navegador no soporta el elemento video. <a href=”videos/VID_20120122_133036
 			<span id="mylist_add_button" style="display:none;">
 			<a href="#" class="btn btn-danger btn-md" style="font-size: 16px; margin-top: 20px;" 
 				onclick="process_list('series' , 'add', <?php echo $row['series_id'];?>)"> 
-			<i class="fa fa-plus"></i> Add to My list
+			<i class="fa fa-plus"></i> 	Agregar a mi lista
 			</a>
 			</span>
 			<span id="mylist_delete_button" style="display:none;">
 			<a href="#" class="btn btn-default btn-md" style="font-size: 16px; margin-top: 20px;" 
 				onclick="process_list('series' , 'delete', <?php echo $row['series_id'];?>)"> 
-			<i class="fa fa-check"></i> Added to My list
+			<i class="fa fa-check"></i> Agregado a mi lista
 			</a>
 			</span>
 			<!-- MOVIE GENRE -->
@@ -156,22 +156,22 @@ Tu navegador no soporta el elemento video. <a href=”videos/VID_20120122_133036
 				<ul class="nav nav-tabs">
 					<li style="width:25%;">
 						<a href="#about" data-toggle="tab">
-						About
+						Acerca de
 						</a>
 					</li>
 					<li class="active" style="width:25%;">
 						<a href="#episode" data-toggle="tab">
-						Episode
+						Episodio
 						</a>
 					</li>
 					<li style="width:25%;">
 						<a href="#cast" data-toggle="tab">
-						Cast
+						Emitir
 						</a>
 					</li>
 					<li style="width:25%;">
 						<a href="#more" data-toggle="tab">
-						More
+						Más
 						</a>
 					</li>
 				</ul>

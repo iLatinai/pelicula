@@ -9,17 +9,17 @@
 <div class="container" style="margin-top: 90px;">
 	<div class="row">
 		<div class="col-lg-12">
-			<h3 class="black_text">Billing History</h3>
+			<h3 class="black_text">Historial de facturación</h3>
 			<hr>
 		</div>
 		<div class="col-lg-8">
 			<table class="table table-striped table-hover" style="color: #000;">
 				<tbody>
 					<tr style="background-color: rgb(243, 243, 243); color: #999; border-bottom: 1px solid #ddd;">
-						<td>Date</td>
-						<td>Package</td>
-						<td>Service Period</td>
-						<td>Payment method</td>
+						<td>Fecha</td>
+						<td>Paquete</td>
+						<td>Periodo de servicio</td>
+						<td>Método de pago</td>
 						<td>Total</td>
 					</tr>
 					<?php 
@@ -49,7 +49,7 @@
 					<?php endforeach;?>
 				</tbody>
 			</table>
-			<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Go Back</a>
+			<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Regresar</a>
 		</div>
 	</div>
 	<hr>
