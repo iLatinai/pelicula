@@ -54,7 +54,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="form-label">Current password</label>
+						<label class="form-label">Contraseña actual</label>
 						<span class="help"></span>
 						<div class="controls">
 							<input type="password" class="form-control" name="old_password" value="">

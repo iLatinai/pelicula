@@ -29,7 +29,7 @@
 				<ul class="nav quick-section">
 					<li class="quicklinks  m-r-10">
 						<a href="<?php echo base_url();?>index.php?browse/home" class="" ta>	
-						Visite el sitio web frontend <i class="fa fa-arrow-right" style="font-size: 15px;"></i>
+						Visite el sitio web principal <i class="fa fa-arrow-right" style="font-size: 15px;"></i>
 						</a>
 					</li>
 				</ul>

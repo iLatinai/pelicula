@@ -9,7 +9,7 @@
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="form-group">
 								<label class="form-label">Nombre de Actor</label>
-								<span class="help">e.g. "Leonardo di Caprio"</span>
+								<span class="help">e.j. "Leonardo di Caprio"</span>
 								<div class="controls">
 									<input type="text" class="form-control" name="name">
 								</div>

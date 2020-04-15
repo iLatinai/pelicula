@@ -44,7 +44,7 @@
 		<div class="tiles green weather-widget ">
 			<div class="tiles-body">
 				<div class="heading">
-					<div class="pull-left"> Total Episodes </div>
+					<div class="pull-left"> Episodios totales </div>
 					<div class="pull-right"> 
 						<?php echo $this->db->from('episode')->count_all_results();?>
 					</div>
@@ -87,7 +87,7 @@
 		<div class="tiles dark-blue weather-widget ">
 			<div class="tiles-body">
 				<div class="heading">
-					<div class="pull-left"> Total Active Subscription </div>
+					<div class="pull-left"> Suscripción activa total </div>
 					<div class="pull-right">
 						<?php
 							$total_active_subscription	=	0;
@@ -117,7 +117,7 @@
 		<div class="tiles red weather-widget ">
 			<div class="tiles-body">
 				<div class="heading">
-					<div class="pull-left"> Sales this month </div>
+					<div class="pull-left"> Ventas de este mes </div>
 					<div class="pull-right">
 						<?php
 							$total_sale	=	0;
@@ -132,7 +132,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="big-icon">
-					<i class="material-icons" style="font-size: 90px;">payment</i>
+					<i class="material-icons" style="font-size: 90px;">pago</i>
 				</div>
 				<div class="clearfix"></div>
 			</div>

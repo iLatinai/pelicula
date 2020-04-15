@@ -3,14 +3,14 @@
 		<a href="<?php echo base_url();?>index.php?browse/playseries/<?php echo $series_id.'/'.$season_id;?>"
 			class="btn btn-primary" style="clear:both;margin-bottom: 20px;" target="_blank">
 		<i class="fa fa-external-link"></i>
-		Visit <?php echo $season_name;?>
+		Visitar <?php echo $season_name;?>
 		</a>
 	</div>
 	<div class="col-md-6 col-sm-6 col-xs-6">
 		<a href="#" onClick="load_create_form()"
 			class="btn btn-primary pull-right" style="clear:both;margin-bottom: 20px;">
 		<i class="fa fa-plus"></i>
-		Create episode
+		Crear episodio
 		</a>
 	</div>
 </div>
@@ -19,7 +19,7 @@
 	<div class="col-md-6 col-sm-12 col-xs-12">
 		<div class="grid simple ">
 			<div class="grid-title">
-				<h4>Episode list</h4>
+				<h4>Lista de episodios</h4>
 			</div>
 			<div class="grid-body">
 				<?php
@@ -29,7 +29,7 @@
 					<thead>
 						<tr>
 							<th>#</th>
-							<th>Title</th>
+							<th>Titulo</th>
 							<th></th>
 						</tr>
 					</thead>
@@ -49,16 +49,16 @@
 							<td>
 								<a href="#" onClick="load_edit_form(<?php echo $series_id.','.$season_id.','.$episode_id;?>)"
 									class="btn btn-info btn-xs btn-mini">
-								edit</a>
+								editar</a>
 								<a href="<?php echo base_url();?>index.php?admin/episode_delete/<?php echo $series_id.'/'.$season_id.'/'.$episode_id;?>" 
 									class="btn btn-danger btn-xs btn-mini" onclick="return confirm('Want to delete?')">
-								delete</a>
+								eliminar</a>
 							</td>
 						</tr>
 						<?php endforeach;?>
 					</tbody>
 				</table>
-				<a href="<?php echo base_url();?>index.php?admin/series_edit/<?php echo $series_id.'/'.$season_id;?>" class="btn btn-default">Go back</a>
+				<a href="<?php echo base_url();?>index.php?admin/series_edit/<?php echo $series_id.'/'.$season_id;?>" class="btn btn-default">Regresar</a>
 			</div>
 		</div>
 	</div>

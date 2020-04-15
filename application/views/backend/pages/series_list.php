@@ -1,12 +1,12 @@
 <a href="<?php echo base_url();?>index.php?admin/series_create/" class="btn btn-primary" style="margin-bottom: 20px;">
 <i class="fa fa-plus"></i>
-Create series
+Crear serie
 </a>
 <div class="row-fluid">
 	<div class="span12">
 		<div class="grid simple ">
 			<div class="grid-title">
-				<h4>Tv Series List</h4>
+				<h4>Lista de Series de TV</h4>
 			</div>
 			<div class="grid-body ">
 				<table class="table table-hover table-condensed" id="example">
@@ -16,9 +16,9 @@ Create series
 								#
 							</th>
 							<th></th>
-							<th>Series Title</th>
-							<th>Genre</th>
-							<th>Operation</th>
+							<th>Titulo de Serie</th>
+							<th>Género</th>
+							<th>Operación</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -39,9 +39,9 @@ Create series
 									target="_blank" class="btn btn-default btn-xs btn-mini">
 								<i class="fa fa-external-link"></i>visit</a>
 								<a href="<?php echo base_url();?>index.php?admin/series_edit/<?php echo $row['series_id'];?>" class="btn btn-info btn-xs btn-mini">
-								manage</a>
+								gestionar</a>
 								<a href="<?php echo base_url();?>index.php?admin/series_delete/<?php echo $row['series_id'];?>" class="btn btn-danger btn-xs btn-mini" onclick="return confirm('Want to delete?')">
-								delete</a>
+								eliminar</a>
 							</td>
 						</tr>
 						<?php endforeach;?>

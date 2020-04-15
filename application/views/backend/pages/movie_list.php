@@ -1,12 +1,12 @@
 <a href="<?php echo base_url();?>index.php?admin/movie_create/" class="btn btn-primary" style="margin-bottom: 20px;">
 <i class="fa fa-plus"></i>
-Create movie
+Crear película
 </a>
 <div class="row-fluid">
 	<div class="span12">
 		<div class="grid simple ">
 			<div class="grid-title">
-				<h4>Movie List</h4>
+				<h4>Lista de peliculas</h4>
 			</div>
 			<div class="grid-body ">
 				<table class="table table-hover table-condensed" id="example">
@@ -16,9 +16,9 @@ Create movie
 								#
 							</th>
 							<th></th>
-							<th>Movie Title</th>
-							<th>Genre</th>
-							<th>Operation</th>
+							<th>Título de la película</th>
+							<th>Genero</th>
+							<th>Operación</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -39,9 +39,9 @@ Create movie
 									target="_blank" class="btn btn-default btn-xs btn-mini">
 								<i class="fa fa-external-link"></i>visit</a>
 								<a href="<?php echo base_url();?>index.php?admin/movie_edit/<?php echo $row['movie_id'];?>" class="btn btn-info btn-xs btn-mini">
-								edit</a>
+								editar</a>
 								<a href="<?php echo base_url();?>index.php?admin/movie_delete/<?php echo $row['movie_id'];?>" class="btn btn-danger btn-xs btn-mini" onclick="return confirm('Want to delete?')">
-								delete</a>
+								eliminar</a>
 							</td>
 						</tr>
 						<?php endforeach;?>
