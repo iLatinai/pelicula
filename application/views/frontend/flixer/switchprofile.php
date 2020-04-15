@@ -62,6 +62,8 @@
 			</tr>
 		</table>
 		<br>
-		<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="profile_manage">GESTIONAR PERFILES</a>
+
+		<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="profile_manage">CONFIGURAR PERFILES</a>
+
 	</div>
 </div>

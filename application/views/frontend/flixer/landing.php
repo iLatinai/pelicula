@@ -12,9 +12,11 @@
 	
 	<!-- promo text visible for large devices -->
 	<div style="font-size: 85px;font-weight: bold;clear: both;padding: 200px 0px 0px 50px;color: #fff;" class="hidden-xs">
-		¿Que quieres ver?
+
+		¿Qué quieres ver?
 		<div style="font-size: 30px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			MIRA DONDE QUIERAS, PAGA CUANDO QUIERAS.
+			MIRA DONDE QUIERAS, CANCELA CUANDO QUIERAS.
+
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >OBTENER MEMBRESÍA</a>
 	</div>
@@ -23,7 +25,8 @@
 	<div style="font-size: 45px;font-weight: bold;clear: both;padding: 80px 0px 0px 10px;color: #fff;" class="hidden-lg hidden-sm hidden-md">
 		See what's next.
 		<div style="font-size: 25px; letter-spacing: .2px; color: #fff; font-weight: 400;">
-			MIRA DONDE QUIERAS<br> , PAGA CUANDO QUIERAS.
+			MIRA DONDE QUIERAS. <br> . CANCELA CUANDO QUIERAS.
+
 		</div>
 		<a href="<?php echo base_url();?>index.php?home/signup" class="btn btn-danger btn-lg" >ENTRAR AHORA</a>
 		<br>
@@ -47,7 +50,7 @@
 						<a href="#anywhere" data-toggle="tab">
 						<i class="fa fa-laptop" style="font-size: 64px; font-weight: lighter; padding: 20px 0px 5px;"></i>
 						<br>
-						Mira en cualquier lugar
+						Mira desde cualquier lugar
 						</a>
 					</li>
 					<li>
@@ -64,6 +67,7 @@
 						<div class="row">
 							<div class="col-md-7" style="padding-top: 50px;">
 								<h4>
+
 									SI DECIDES QUE VIDEOFLIX NO ES PARA TI, NO HAY PROBLEMA. CANCELA ONLINE EN CUALQUIER MOMENTO.
 								</h4>
 								<br>
@@ -80,7 +84,7 @@
 						<div class="row">
 							<div class="col-md-9">
 								<h4>
-									Disfruta series y películas en cualquier lugar, desde cualquier dispositivo.
+									Disfruta de Películas, Series y Programas donde quieras, en cualquier dispositivo.
 								</h4>
 							</div>
 							<div class="col-md-3">
@@ -108,7 +112,7 @@
 						<div class="row" style="margin: 35px;">
 							<div class="col-md-8" style="text-align: right;">
 								<h4>
-									Elige un plan.
+									Elige un plan y disfruta.
 								</h4>
 							</div>
 							<div class="col-md-4" style="text-align: left;">
@@ -130,16 +134,20 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
+
 									<td>Precio mensual</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
 										?>
-									<td align="center">USD <?php echo $row['price'];?></td>
+									<td align="center">$<?php echo $row['price'];?> CLP</td>
 									<?php endforeach;?>
 								</tr>
 								<tr>
+
 									<td>Pantallas que puedes ver al mismo tiempo</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -148,7 +156,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
+
 									<td>Mire en su computadora portátil, TV, teléfono y tableta</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -166,7 +176,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
+
 									<td>Películas y programas de TV ilimitados.</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -175,7 +187,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Cancelar en cualquier momento</td>
+
+									<td>Cancelar plan en cualquier momento</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):

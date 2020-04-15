@@ -153,7 +153,8 @@
 						<?php endif;?>
 						<?php endif;?>
 						<li class="divider"></li>
-						<li><a href="<?php echo base_url();?>index.php?browse/manageprofile">Administrar perfil</a></li>
+						<li><a href="<?php echo base_url();?>index.php?browse/manageprofile">Configurar Perfiles</a></li>
+
 						<li class="divider"></li>
 						<!-- SHOW ADMIN LINK IF ADMIN LOGGED IN -->
 						<?php 
@@ -161,8 +162,9 @@
 								?>
 						<li><a href="<?php echo base_url();?>index.php?admin/dashboard">Administrador</a></li>
 						<?php endif;?>
-						<li><a href="<?php echo base_url();?>index.php?browse/youraccount">Cuenta</a></li>
-						<li><a href="<?php echo base_url();?>index.php?home/signout">Cerrar sesión</a></li>
+						<li><a href="<?php echo base_url();?>index.php?browse/youraccount">Mi cuenta</a></li>
+						<li><a href="<?php echo base_url();?>index.php?home/signout">Cerrar Sesión</a></li>
+
 					</ul>
 				</li>
 			</ul>

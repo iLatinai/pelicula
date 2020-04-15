@@ -22,6 +22,7 @@
 			?>
 		<div class="alert alert-dismissible alert-danger" style="margin: 30px;">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
 				¡El Email ya existe! Inténtalo de nuevo.
 		</div>
 		<?php endif;?>
@@ -30,11 +31,13 @@
 		</div>
 		<div class="col-lg-12" style="margin: 0px 20px;">
 			<h4 class="black_text">Crea tu cuenta:</h4>
+
 		</div>
 		<div class="col-lg-12" style="margin: 0px 20px;">
 			<form method="post" action="<?php echo base_url();?>index.php?home/signup">
 				<div style="margin:10px 0px 5px;">
 					Dirección de correo electrónico
+
 				</div>
 				<div class="black_text">
 					<input type="email" name="email" style="padding: 10px; width:400px;" autocomplete="off" />
@@ -45,7 +48,9 @@
 				<div class="black_text">
 					<input type="password" name="password" style="padding: 10px; width:400px;" />
 				</div>
+
 				<button type="submit"  class="btn btn-primary" style=" width: 150px; margin: 20px 0px;">Registrarse</button>
+
 			</form>
 		</div>
 	</div>

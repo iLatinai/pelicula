@@ -11,7 +11,9 @@
 		</div>
 		<?php endif;?>
 		<div class="col-lg-12">
-			<h3 class="black_text">Cambia la contraseña</h3>
+
+			<h3 class="black_text">Cambiar contraseña</h3>
+
 			<hr>
 		</div>
 		<div class="col-lg-5">
@@ -24,6 +26,7 @@
 				</div>
 				<div class="" style="margin-top: 20px;">
 					Nueva contraseña 
+
 				</div>
 				<div class="black_text">
 					<input type="password" name="new_password" style="padding: 10px; width:100%;" />

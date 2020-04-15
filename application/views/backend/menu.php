@@ -3,7 +3,7 @@
 <div class="page-sidebar-wrapper scrollbar-dynamic" id="main-menu-wrapper">
   <div class="user-info-wrapper sm">
 	<div class="profile-wrapper sm">
-	  <i class="material-icons" style="font-size: 50px;">account_circle</i>
+	  <i class="material-icons" style="font-size: 50px;">cuenta_círculo</i>
 	  
 	</div>
 	<div class="user-info sm">
@@ -31,8 +31,10 @@
 	<!-- MOVIES -->
 	<li class="<?php if ($page_name == 'movie_list' || $page_name == 'movie_edit' || $page_name == 'movie_create')echo 'active';?>"> 
 		<a href="<?php echo base_url();?>index.php?admin/movie_list">
+
 		<i class="material-icons">Librearia de videos</i> 
 		<span class="title">Películas</span> <span class=""></span> </a>
+
 	</li>
 	
 	<!-- TV SERIES -->
@@ -45,7 +47,9 @@
 	<!--  -->
 	<li class="<?php if ($page_name == 'genre_list' || $page_name == 'genre_edit' || $page_name == 'genre_create')echo 'active';?>"> 
 		<a href="<?php echo base_url();?>index.php?admin/genre_list">
-		<i class="material-icons">filter_list</i> 
+
+		<i class="material-icons">lista_filtro</i> 
+
 		<span class="title">Genero</span> <span class=""></span> </a>
 	</li>
 	
@@ -82,8 +86,10 @@
 		$page_name == 'settings' )$open_settings = true;
 	  ?>
 						 	
-	<li class="<?php if($open_settings == true)echo 'active';?>"> <a href="#"><i class="material-icons">contruir</i> 
-		<span class="title">Configuratción</span> <span class="<?php if($open_settings == true)echo 'open';?> arrow"></span> </a>
+
+	<li class="<?php if($open_settings == true)echo 'active';?>"> <a href="#"><i class="material-icons">construir</i> 
+		<span class="title">Configuración</span> <span class="<?php if($open_settings == true)echo 'open';?> arrow"></span> </a>
+
 		<ul class="sub-menu">
 			<li class=""><a href="<?php echo base_url();?>index.php?admin/settings">Configuraciones del sitio web</a></li>
 			<li class=""><a href="<?php echo base_url();?>index.php?admin/faq_list">Preguntas frecuentes del cliente</a></li>
@@ -92,7 +98,9 @@
 	
 	<!--  -->
 	<li class="<?php if($page_name == 'account')echo 'active';?>"> 
+
 		<a href="<?php echo base_url();?>index.php?admin/account"><i class="material-icons">account_circle</i> 
+
 		<span class="title">Cuenta</span> <span class=""></span> </a>
 	</li>
 	
