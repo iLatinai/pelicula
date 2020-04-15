@@ -1,20 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-A PHP Error was encountered
+Se ha encontrado un error PHP
 
-Severity:    <?php echo $severity, "\n"; ?>
-Message:     <?php echo $message, "\n"; ?>
-Filename:    <?php echo $filepath, "\n"; ?>
-Line Number: <?php echo $line; ?>
+Gravedad:    <?php echo $severity, "\n"; ?>
+Mensaje:     <?php echo $message, "\n"; ?>
+Nombre del archivo:    <?php echo $filepath, "\n"; ?>
+Número de línea: <?php echo $line; ?>
 
 <?php if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE === TRUE): ?>
 
 Backtrace:
 <?php	foreach (debug_backtrace() as $error): ?>
 <?php		if (isset($error['file']) && strpos($error['file'], realpath(BASEPATH)) !== 0): ?>
-	File: <?php echo $error['file'], "\n"; ?>
-	Line: <?php echo $error['line'], "\n"; ?>
-	Function: <?php echo $error['function'], "\n\n"; ?>
+	Archivo: <?php echo $error['file'], "\n"; ?>
+	Linea: <?php echo $error['line'], "\n"; ?>
+	Función: <?php echo $error['function'], "\n\n"; ?>
 <?php		endif ?>
 <?php	endforeach ?>
 
