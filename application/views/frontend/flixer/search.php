@@ -6,7 +6,9 @@
 	?>
 <div class="row" style="margin:20px 60px;">
 	<h4>
-		Buscar resultados para: "<?php echo $search_key;?>"
+
+		Resultado de búsqueda para : "<?php echo $search_key;?>"
+
 	</h4>
 	<div class="content">
 		<div class="grid">

@@ -134,7 +134,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Cuota mensual</td>
+
+									<td>Precio mensual</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -143,7 +145,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Pantallas que puedes reproducir a la vez</td>
+
+									<td>Pantallas que puedes ver al mismo tiempo</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -152,7 +156,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Mirar en Laptop, TV, Smartphone y Tablet</td>
+
+									<td>Mire en su computadora portátil, TV, teléfono y tableta</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -170,7 +176,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
-									<td>Películas y Series ilimitadas</td>
+
+									<td>Películas y programas de TV ilimitados.</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):
@@ -179,7 +187,9 @@
 									<?php endforeach;?>
 								</tr>
 								<tr>
+
 									<td>Cancelar plan en cualquier momento</td>
+
 									<?php
 										$plans = $this->crud_model->get_active_plans();
 										foreach ($plans as $row):

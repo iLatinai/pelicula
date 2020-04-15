@@ -7,7 +7,9 @@
 			?>
 		<div class="alert alert-dismissible alert-danger">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
 			Se ha cancelado el pago.
+
 		</div>
 		<?php endif;?>
 		<?php
@@ -15,7 +17,9 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
 			Pago realizado con éxito!
+
 		</div>
 		<?php endif;?>
 		<?php
@@ -23,7 +27,9 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
 			Correo electrónico actualizado con éxito.
+
 		</div>
 		<?php endif;?>
 		<?php
@@ -31,7 +37,9 @@
 			?>
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Contraseña actualizada con éxito.
+
+			Contraseña cambiada con éxito.
+
 		</div>
 		<?php endif;?>
 		<?php
@@ -40,7 +48,9 @@
 		<!-- ERROR MESSAGE --> 
 		<div class="alert alert-dismissible alert-success">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
 			Membresía cancelada exitosamente. Puede pagarla o renovarla en cualquier momento.
+
 		</div>
 		<?php endif;?>
 		<!-- NOTIFICATION MESSAGES ENDS -->
@@ -57,13 +67,17 @@
 						if ( $this->crud_model->validate_subscription() == false):
 						?>
 					<a href="<?php echo base_url();?>index.php?browse/purchaseplan" 
+
 						class="btn btn-primary" style="margin:10px 0px;"> Comprar membresía </a>
+
 					<?php endif;?>
 					<?php
 						if ( $this->crud_model->validate_subscription() != false):
 						?>
 					<a href="<?php echo base_url();?>index.php?browse/cancelplan" 
+
 						class="btn btn-default" style="margin:10px 0px;"> Cancelar membresía </a>
+
 					<?php endif;?>
 				</div>
 				<div class="col-lg-7">
@@ -72,13 +86,15 @@
 							<b><?php echo $this->crud_model->get_current_user_detail()->email;?></b>
 						</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/emailchange" class="blue_text">Cambiar Correo Electrónico</a>
+
+							<a href="<?php echo base_url();?>index.php?browse/emailchange" class="blue_text">Cambiar e-mail</a>
 						</div>
 					</div>
 					<div class="row" style="margin: 5px;">
-						<div class="pull-left">Contraseña: ******</div>
+						<div class="pull-left">Contraseña : ******</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/passwordchange" class="blue_text">Cambiar Contraseña</a>
+							<a href="<?php echo base_url();?>index.php?browse/passwordchange" class="blue_text">Cambiar contraseña</a>
+
 						</div>
 					</div>
 				</div>
@@ -86,7 +102,9 @@
 			<hr>
 			<div class="row">
 				<div class="col-lg-5">
+
 					<span style="font-size: 20px;">DETALLES DE SU PLAN</span>
+
 					<br>
 				</div>
 				<div class="col-lg-7">
@@ -105,9 +123,11 @@
 							<?php echo $current_plan_name . " (" . $current_plan_screens . " screens)"; ?>
 							</b>
 							<br>
+
 							Vigente hasta: <b><?php echo date('d M, Y', $current_subscription_upto_timestamp);?></b>
 							<br>
 							<i style="font-size: 12px;">Para cambiar su plan, cancele su plan actual primero.</i>
+
 							<?php endif;?>
 							<!-- IF ANY ACTIVE SUBSCRIPTION IS NOT FOUND -->
 							<?php
@@ -120,7 +140,9 @@
 							<?php
 								if ( $this->crud_model->validate_subscription() == false):
 								?>
+
 							<a href="<?php echo base_url();?>index.php?browse/purchaseplan" class="blue_text">Comprar</a>
+
 							<?php endif;?>
 							<?php
 								if ( $this->crud_model->validate_subscription() != false):
@@ -128,7 +150,9 @@
 							<a href="<?php echo base_url();?>index.php?browse/cancelplan" class="blue_text">Cancelar</a>
 							<?php endif;?>
 							<br>
+
 							<a href="<?php echo base_url();?>index.php?browse/billinghistory" class="blue_text">Historial de Facturas</a>
+
 						</div>
 					</div>
 				</div>
@@ -143,12 +167,14 @@
 					<div class="row" style="margin: 5px;">
 						<div class="pull-left black_text">
 							<img src="<?php echo base_url();?>assets/global/thumb1.png" style="margin:10px 10px 10px 0px; height: 30px;" />
-							username
+							nombre de usuario
 							<br>
 							<!--<a href="" class="blue_text">Language</a>-->
 						</div>
 						<div class="pull-right">
-							<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="blue_text">Configurar perfiles</a>
+
+							<a href="<?php echo base_url();?>index.php?browse/manageprofile" class="blue_text">Administrar perfiles</a>
+
 						</div>
 					</div>
 				</div>

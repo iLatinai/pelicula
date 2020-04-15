@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Stripe Payment</title>
+        <title>Pago de la raya</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -157,15 +157,15 @@
             
             <label>
                 <div id="card-element" class="field is-empty"></div>
-                <span><span>Credit / Debit card</span></span>
+                <span><span>Tarjeta de crédito / débito</span></span>
             </label>
             <button type="submit">
-                pay 
+                pagar
             </button>
             <div class="outcome">
                 <div class="error" role="alert"></div>
                 <div class="success">
-                Success! Your Stripe token is <span class="token"></span>
+                ¡Éxito! Tu token Stripe es <span class="token"></span>
                 </div>
             </div>
             <input type="hidden" name="stripeToken" value="">

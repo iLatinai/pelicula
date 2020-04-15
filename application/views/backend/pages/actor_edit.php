@@ -26,9 +26,9 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<input type="submit" class="btn btn-success" value="Update">
+								<input type="submit" class="btn btn-success" value="Actualizar">
 								<a href="<?php echo base_url();?>index.php?admin/actor_list" 
-									class="btn btn-default">Go back
+									class="btn btn-default">Regresar
 								</a>
 							</div>
 						</div>

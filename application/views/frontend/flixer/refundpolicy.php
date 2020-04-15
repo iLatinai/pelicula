@@ -10,7 +10,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<h4 class="black_text">Refund Policy</h4>
+			<h4 class="black_text">Politica de reembolso</h4>
 		</div>
 		<div class="col-lg-12" style="margin:20px;">
 			<div class="row">

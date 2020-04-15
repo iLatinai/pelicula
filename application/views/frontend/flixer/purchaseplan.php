@@ -7,17 +7,17 @@
 <div class="container" style="margin-top: 90px;">
 	<div class="row">
 		<div class="col-lg-12">
-			<h3 class="black_text">Purchase Membership</h3>
+			<h3 class="black_text">Comprar Membresía</h3>
 			<hr>
 		</div>
 		<div class="col-lg-8">
-			<h4 class="black_text">Purchase any of the membership package from below.</h4>
+			<h4 class="black_text">Compre cualquiera de los paquetes de membresía desde abajo.</h4>
 			<ul class="black_text">
 				<li>
-					Select any of your preferred membership package & make payment.
+					Seleccione cualquiera de sus paquetes de membresía preferidos y realice el pago.
 				</li>
 				<li>
-					You can cancel your subscription anytime later.
+					Puede cancelar su suscripción en cualquier momento posterior.
 				</li>
 			</ul>
 			<form method="post" action="">
@@ -25,7 +25,7 @@
 					<tbody>
 						<tr>
 							<td>
-								<h6>Packages</h6>
+								<h6>Paquetes</h6>
 							</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
@@ -37,7 +37,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr>
-							<td>Monthly price</td>
+							<td>Precio mensual</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -46,7 +46,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr style="background-color: #fff;">
-							<td>Screens you can watch on at the same time</td>
+							<td>Pantallas que puedes ver al mismo tiempo</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -55,7 +55,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr>
-							<td>Watch on your laptop, TV, phone and tablet</td>
+							<td>Mire en su computadora portátil, TV, teléfono y tableta</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -64,7 +64,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr style="background-color: #fff;">
-							<td>HD available</td>
+							<td>HD disponible</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -73,7 +73,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr>
-							<td>Unlimited movies and TV shows</td>
+							<td>Películas y programas de TV ilimitados.</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -82,7 +82,7 @@
 							<?php endforeach;?>
 						</tr>
 						<tr style="background-color: #fff;">
-							<td>Cancel anytime</td>
+							<td>Cancelar en cualquier momento</td>
 							<?php
 								$plans = $this->crud_model->get_active_plans();
 								foreach ($plans as $row):
@@ -104,7 +104,7 @@
 					</tbody>
 				</table>
 				<div class="pull-right">
-					<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Go Back</a>
+					<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Regresar</a>
 					<input type="submit" formaction="<?php echo base_url();?>index.php?payment/paypal_payment/paypal_post" 
 						class="btn btn-primary" id="payment_paypal" disabled value="Pay by paypal">
 					<input type="submit" formaction="<?php echo base_url();?>index.php?browse/purchasestripe" 

@@ -7,11 +7,13 @@
 		<!-- ERROR MESSAGE --> 
 		<div class="alert alert-dismissible alert-danger">
 			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Current password given wrong or New password must be at least 6 character long. Please try again.
+			La contraseña actual es incorrecta o la nueva contraseña debe tener al menos 6 caracteres. Inténtalo de nuevo.
 		</div>
 		<?php endif;?>
 		<div class="col-lg-12">
+
 			<h3 class="black_text">Cambiar contraseña</h3>
+
 			<hr>
 		</div>
 		<div class="col-lg-5">
@@ -23,7 +25,8 @@
 					<input type="password" name="old_password" style="padding: 10px; width:100%;" />
 				</div>
 				<div class="" style="margin-top: 20px;">
-					Nueva contraseña
+					Nueva contraseña 
+
 				</div>
 				<div class="black_text">
 					<input type="password" name="new_password" style="padding: 10px; width:100%;" />

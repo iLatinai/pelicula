@@ -10,7 +10,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<h4 class="black_text">Privacy policy</h4>
+			<h4 class="black_text">Política de privacidad</h4>
 		</div>
 		<div class="col-lg-12" style="margin:20px;">
 			<div class="row">

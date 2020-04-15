@@ -2,6 +2,7 @@
 <div class="container" style="margin-top: 90px;">
 	<div class="row">
 		<div class="col-lg-12">
+
 			<h3 class="black_text">¿Cancelar suscripción?</h3>
 			<hr>
 		</div>
@@ -13,12 +14,15 @@
 				</li>
 				<li>
 					Regrese a su suscripción cuando desee. Sus preferencias se mantendrán aquí.
+
 				</li>
 			</ul>
 			<form method="post" action="<?php echo base_url();?>index.php?browse/cancelplan">
 				<input type="hidden" name="task" value="cancel_plan" />
-				<button class="btn btn-primary" type="submit"> CONFIRMO </button>
-				<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Volver</a>
+
+				<button class="btn btn-primary" type="submit"> Finalizar cancelación </button>
+				<a href="<?php echo base_url();?>index.php?browse/youraccount" class="btn btn-default">Regresar</a>
+
 			</form>
 		</div>
 	</div>

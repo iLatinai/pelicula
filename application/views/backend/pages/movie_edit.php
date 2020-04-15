@@ -12,7 +12,7 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="form-group">
-								<label class="form-label">Movie Title</label>
+								<label class="form-label">Titulo de película</label>
 								<span class="help"></span>
 								<div class="controls">
 									<input type="text" class="form-control" name="title" value="<?php echo $movie_detail->title;?>">
@@ -20,43 +20,43 @@
 							</div>
 							<div class="form-group">
 								<label class="form-label">Video Url</label>
-								<span class="help">- youtube or any hosted video</span>
+								<span class="help">- youtube o cualquier video alojado</span>
 								<div class="controls">
 									<input type="text" class="form-control" name="url" id="url"  
 										value="<?php echo $movie_detail->url;?>">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Thumbnail</label>
-								<span class="help">- icon image of the movie</span>
+								<label class="form-label">Miniatura</label>
+								<span class="help">- imagen de icono de la película</span>
 								<div class="controls">
 									<input type="file" class="form-control" name="thumb">
 								</div>
 							</div>
 							<div class="form-group">
 								<label class="form-label">Poster</label>
-								<span class="help">- large banner image of the movie</span>
+								<span class="help">- imagen de banner grande de la película</span>
 								<div class="controls">
 									<input type="file" class="form-control" name="poster">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Short description </label>
+								<label class="form-label">Breve descripción </label>
 								<span class="help"></span>
 								<div class="controls">
 									<textarea class="form-control" name="description_short"><?php echo $movie_detail->description_short;?></textarea>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Long description </label>
+								<label class="form-label">Descripción larga </label>
 								<span class="help"></span>
 								<div class="controls">
 									<textarea class="form-control" name="description_long"><?php echo $movie_detail->description_long;?></textarea>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Actors </label>
-								<span class="help">- select multiple actors</span>
+								<label class="form-label">Actores </label>
+								<span class="help">- seleccionar múltiples actores</span>
 								<div class="controls">
 									<select class="select2"  multiple name="actors[]" style="width:100%;">
 										<?php 
@@ -80,8 +80,8 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Genre </label>
-								<span class="help">- genre must be selected</span>
+								<label class="form-label">Género </label>
+								<span class="help">- género debe ser seleccionado</span>
 								<div class="controls">
 									<select class="select2" name="genre_id" style="width:150px;">
 										<?php 
@@ -97,8 +97,8 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Publishing Year </label>
-								<span class="help">- year of publishing time</span>
+								<label class="form-label">Año de publicación </label>
+								<span class="help">- año de publicación</span>
 								<div class="controls">
 									<select class="select2" name="year" style="width:150px;">
 										<?php for ($i = date("Y"); $i > 2000 ; $i--):?>
@@ -112,8 +112,8 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Rating </label>
-								<span class="help">- star rating of the movie</span>
+								<label class="form-label">Clasificación </label>
+								<span class="help">- clasificación de estrellas de la película</span>
 								<div class="controls">
 									<select class="select2" name="rating" style="width:150px;">
 										<?php for ($i = 0; $i <= 5 ; $i++):?>
@@ -127,12 +127,12 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="form-label">Featured </label>
-								<span class="help">- featured movie will be shown in home page</span>
+								<label class="form-label">Destacados </label>
+								<span class="help">- la película destacada se mostrará en la página de inicio</span>
 								<div class="controls">
 									<select class="select2" name="featured" style="width:150px;">
 										<option value="0" <?php if ( $movie_detail->featured == 0) echo 'selected';?>>No</option>
-										<option value="1" <?php if ( $movie_detail->featured == 1) echo 'selected';?>>Yes</option>
+										<option value="1" <?php if ( $movie_detail->featured == 1) echo 'selected';?>>Si</option>
 									</select>
 								</div>
 							</div>
@@ -140,7 +140,7 @@
 						<!-- PREVIEW OF THE VIDEO FILE -->
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="form-group">
-								<label class="form-label">Preview:</label>
+								<label class="form-label">Avance:</label>
 								<?php 
 								$iframe_embed = $this->crud_model->is_iframe($movie_detail->url);
 								if ($iframe_embed == true):
@@ -202,7 +202,7 @@
 					<hr>
 					<div class="form-group">
 						<input type="submit" class="btn btn-success col-md-3 col-sm-12 col-xs-12" value="Update Movie" style="margin:0px 5px 5px 0px;">
-						<a href="<?php echo base_url();?>index.php?admin/movie_list" class="btn btn-default col-md-3 col-sm-12 col-xs-12">Go back</a>
+						<a href="<?php echo base_url();?>index.php?admin/movie_list" class="btn btn-default col-md-3 col-sm-12 col-xs-12">Regresar</a>
 					</div>
 				</form>
 			</div>

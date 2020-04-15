@@ -17,9 +17,9 @@
 							<div class="error-description"> 
 								<img src="<?php echo base_url();?>assets/global/item_thumb.png" style="height: 100px;" />
 								<br>
-								Videoflix - Tv Series Movie Subscription Portal Cms 
+								Videoflix - Tv Series Portal de suscripción de películas  
 							</div>
-							<div class="error-description-mini"> Please follow the installation instructions provided in the Documentation. </div>
+							<div class="error-description-mini"> Siga las instrucciones de instalación proporcionadas en la Documentación. </div>
 							<br>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 		<div id="footer">
 		<div class="error-container">
 			<ul class="footer-links">
-				<li><a href="https://codecanyon.net/user/vmaxstudio" target="_blank">Contact Support</a></li>
+				<li><a href="https://codecanyon.net/user/vmaxstudio" target="_blank">Soporte de contacto</a></li>
 				<li><a href="http://www.vmax-studio.com" target="_blank">&copy; 2017 Vmax Studio</a></li>
 			</ul>
 		</div>
